@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'pug';
+    src: url('../../../assets/fonts/I_Love_Pugs.ttf');
+}
+
+#header{
+    background-image: url('../../../assets/images/pug1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 900px;
+
+    h1{
+        font-family: 'pug';
+        font-size: 25rem;
+        color: rgb(41, 38, 38);
+    }
+
+    article{
+        height: 900;
+    }
+}
+
+#galery{
+    background-color: #A59E67;
+
+    h1{
+        font-family: 'pug';
+        font-size: 8rem;
+        color: rgb(41, 38, 38);
+    }
+
+    img{
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 10rem !important;
+    }
+}
+

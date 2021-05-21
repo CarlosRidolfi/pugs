@@ -1,0 +1,25 @@
+nav{
+    position: fixed;
+    top: 0;
+
+    img{
+        width: 100%;
+        max-width: 80px;
+        margin-right: 10px;
+    }
+
+    .pugButton{
+        margin-left: 10px;
+        background-color: #A59E67;
+        color: bisque;
+        border-radius: 20px;
+        width: 100px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'pug';
+        font-size: 20px;
+        padding: 5px;
+    }
+}
