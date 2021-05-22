@@ -4,26 +4,35 @@
 }
 
 #header{
+    width: auto;
+    height: 800px;
     background-image: url('../../../assets/images/pug1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: auto;
-    height: 900px;
 
     h1{
         font-family: 'pug';
         font-size: 25rem;
-        color: rgb(41, 38, 38);
+        color: rgb(41, 36, 36);
+        z-index: 0;
+        position: relative;
     }
 
     article{
-        height: 900;
+        height: 900px;
+    }
+
+    video{
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
 }
 
 #galery{
-    background-color: #A59E67;
+    background-color: #c2be9e;
+    margin-top: 150px;
 
     h1{
         font-family: 'pug';
@@ -36,7 +45,14 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 991px){
+    video{
+        display: none;
+    }
+}
+
+
+@media (max-width: 991px){
     h1{
         font-size: 10rem !important;
     }
